@@ -1,5 +1,5 @@
 
-                                  ABOUT_ME
+                                 TEAM_GITHUB__ABOUT_ME
 
 I am a fast growing vibrant Software Testing Engineer vested with vast skills in both manual and Automated API Testing.
 
