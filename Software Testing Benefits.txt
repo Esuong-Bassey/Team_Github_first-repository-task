@@ -1,0 +1,55 @@
+FOUR KEY BENEFITS OF SOFTWARE TESTING FOR A BUSINESS
+
+PREAMBLE
+Think about how you felt the last time you tried to use a software that didn’t work.
+Frustrated? Furious? Annoyed? Disappointed? Desperate for some kind of salvation because you need that software for a report that was due yesterday?
+
+The fact is, we need software to do our jobs. And when that software doesn’t work, it throws a wrench in the whole process.
+
+Software testing is the difference between a morning of sheer anger and another smooth Tuesday. 
+
+However, here are four key benefits of software testing your team can’t afford to ignore.
+
+1. Saves Money
+First and foremost, software testing saves money.
+
+Software development and implementation involve several stages. Each stage demands coordination and communication between multiple teams and every stage has a laundry list of ways that things could go wrong.
+
+Catching those problems once the software is already live is a nightmare. You have to handle PR while retasking employees to scramble and fix the problem. And in the meantime, your would-be customers can’t use your software.
+
+So you’re not just losing money on the direct cost of fixing the software. You’re also losing money through lost potential transactions.
+
+Software testing allows you to catch problems early and fix them before they become PR disasters.
+
+2. Inspires Customer Confidence and Satisfaction
+That translates directly to your customers.
+
+Think of it this way.
+
+Let’s say you’re a customer who’s just downloaded a new software program. But when you try to launch the program or log in, you get an error message.
+
+Not only have you wasted money on a program that doesn’t work, but now you also have to decide whether to hedge your bets and see if the software is worth waiting for or take your business elsewhere.
+
+Chances are, most customers aren’t willing to forgive that sour taste in their mouth.
+
+By investing in quality assurance early, you’re sending a message to your customers that you care about their experience. You want them to get everything they hoped for and more. And that message is critical in forming long-term customer relationships.
+
+3. Improves Security
+Did you know that software failures caused $1.7 trillion in losses in 2017?
+
+You see, when your software fails, you’re not just sacrificing your customer experience. You’re also sacrificing software security.
+
+That means that every customer who uses your software has now put their data and systems at risk.
+
+And with all the major data privacy scandals last year (Cambridge Analytica, anyone?) customers aren’t willing to risk their data twice.
+
+With software testing, you can deliver a safe, trustworthy product to your customers from Day One. It protects their critical information, cements their trust, and reduces the risk of expensive embarrassments later on.
+
+4. Improves Product Quality
+Finally, in case you hadn’t guessed yet, software testing improves your overall product quality.
+
+Companies may know the benefits of Software-as-a-Service (SaaS), but they won’t invest in SaaS if the product is subpar. After all, they have customers to keep happy just as much as you do.
+
+In order to make your vision come to life, the simple fact is that your software needs to work. It has to be bug-free, low-risk, and effective at doing its job.
+
+You won’t know how good your product is until you test it. Think of it as a trial run before your customers get their hands on it. That way, you’ll know that you’re providing the best possible version of your software before it hits the market.
