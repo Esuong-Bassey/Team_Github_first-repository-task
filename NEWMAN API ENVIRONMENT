@@ -1,0 +1,474 @@
+{
+	"id": "35707785-2b8d-4990-bdb7-4a57170f5c0a",
+	"name": "API AUTOMATION_8.B",
+	"timestamp": "2021-11-25T22:21:59.834Z",
+	"collection_id": "18144319-8d43ec82-178e-4c79-8ddf-dac5ad203acc",
+	"folder_id": 0,
+	"environment_id": "7ee484f9-1c78-4127-b978-5fd4a4609cfb",
+	"totalPass": 47,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "092ec350-e10a-4c13-b570-7529184174ce",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/index.php//todo",
+			"time": 1055,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name has string": true,
+				"confirm that the total result should be 31": true,
+				"confirm that the total entry with Task 11 ID is 10": true,
+				"Body is correct": true,
+				"Body matches string": true,
+				"confirm that Task 1 is present": true,
+				"confirm that Task 3 is present": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the total result should be 31": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the total entry with Task 11 ID is 10": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that Task 1 is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that Task 3 is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1055
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name has string": true,
+					"confirm that the total result should be 31": true,
+					"confirm that the total entry with Task 11 ID is 10": true,
+					"Body is correct": true,
+					"Body matches string": true,
+					"confirm that Task 1 is present": true,
+					"confirm that Task 3 is present": true
+				}
+			]
+		},
+		{
+			"id": "fea7333f-eb6f-455c-acbc-5c8700e32eae",
+			"name": "Get All Todo Entries with title",
+			"url": "https://demo.fusio-project.org/index.php//todo/?title",
+			"time": 231,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name has string": true,
+				"confirm that the total result should be 31": true,
+				"Body is correct": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the total result should be 31": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				231
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name has string": true,
+					"confirm that the total result should be 31": true,
+					"Body is correct": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "e333efe0-f865-4ab6-b9b9-f1bc0624507d",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php//index.php",
+			"time": 259,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name has string": true,
+				"Body is correct": true,
+				"Body matches string": true,
+				"confirm that fusio is present": true,
+				"confirm that documentation is present in apps ": true,
+				"confirm that authorization is in categories ": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that fusio is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that documentation is present in apps ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that authorization is in categories ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				259
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name has string": true,
+					"Body is correct": true,
+					"Body matches string": true,
+					"confirm that fusio is present": true,
+					"confirm that documentation is present in apps ": true,
+					"confirm that authorization is in categories ": true
+				}
+			]
+		},
+		{
+			"id": "490bb120-722c-484d-af4b-07839d52c26a",
+			"name": "Get entry per ID_Valid ID",
+			"url": "https://demo.fusio-project.org/index.php//todo/?todo_id=11",
+			"time": 249,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name has string": true,
+				"confirm that the total result should be 31": true,
+				"Body is correct": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the total result should be 31": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				249
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name has string": true,
+					"confirm that the total result should be 31": true,
+					"Body is correct": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "19e421ea-3a8d-4cc9-8964-ac1b08381956",
+			"name": "Get entry per ID_Invalid ID",
+			"url": "https://demo.fusio-project.org/index.php//todo/?todo_id=2000000",
+			"time": 256,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name has string": true,
+				"confirm that the total result should be 31": true,
+				"Body is correct": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the total result should be 31": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				256
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name has string": true,
+					"confirm that the total result should be 31": true,
+					"Body is correct": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "677e283e-45bd-418e-a660-53ccc7c985f4",
+			"name": "Get All Books",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 1209,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status should be 200": true,
+				"search for a book name called Vicount Who Love Me": true,
+				"The id number of a fiction book that is available with the name Mignight Library ": true
+			},
+			"testPassFailCounts": {
+				"Status should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"search for a book name called Vicount Who Love Me": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The id number of a fiction book that is available with the name Mignight Library ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1209
+			],
+			"allTests": [
+				{
+					"Status should be 200": true,
+					"search for a book name called Vicount Who Love Me": true,
+					"The id number of a fiction book that is available with the name Mignight Library ": true
+				}
+			]
+		},
+		{
+			"id": "51c4f492-5d1f-49f1-a07a-fc529722035b",
+			"name": "Get Books_Valid Books",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 285,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Search for a book name called The Midnight Library": true,
+				"The id number of a fiction book that available with the name The Midnight Library is ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for a book name called The Midnight Library": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The id number of a fiction book that available with the name The Midnight Library is ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				285
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Search for a book name called The Midnight Library": true,
+					"The id number of a fiction book that available with the name The Midnight Library is ": true
+				}
+			]
+		},
+		{
+			"id": "75468250-42f5-4bfb-961d-c978fdf53a49",
+			"name": "Get Books_Invalis Books",
+			"url": "https://simple-books-api.glitch.me/books?type=fiction",
+			"time": 277,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Search for a book name called Viscount Who Loved Me": true,
+				"The id number of a fiction book that available with the name The Midnight Library is ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Search for a book name called Viscount Who Loved Me": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The id number of a fiction book that available with the name The Midnight Library is ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				277
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Search for a book name called Viscount Who Loved Me": true,
+					"The id number of a fiction book that available with the name The Midnight Library is ": true
+				}
+			]
+		},
+		{
+			"id": "565aaf56-ce8d-4a58-86e2-13217c09d90f",
+			"name": "Place a book order_Using Valid Id",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 285,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				285
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4106,
+	"collection": {
+		"requests": [
+			{
+				"id": "092ec350-e10a-4c13-b570-7529184174ce",
+				"method": "GET"
+			},
+			{
+				"id": "fea7333f-eb6f-455c-acbc-5c8700e32eae",
+				"method": "GET"
+			},
+			{
+				"id": "e333efe0-f865-4ab6-b9b9-f1bc0624507d",
+				"method": "GET"
+			},
+			{
+				"id": "490bb120-722c-484d-af4b-07839d52c26a",
+				"method": "GET"
+			},
+			{
+				"id": "19e421ea-3a8d-4cc9-8964-ac1b08381956",
+				"method": "GET"
+			},
+			{
+				"id": "677e283e-45bd-418e-a660-53ccc7c985f4",
+				"method": "GET"
+			},
+			{
+				"id": "51c4f492-5d1f-49f1-a07a-fc529722035b",
+				"method": "GET"
+			},
+			{
+				"id": "75468250-42f5-4bfb-961d-c978fdf53a49",
+				"method": "GET"
+			},
+			{
+				"id": "565aaf56-ce8d-4a58-86e2-13217c09d90f",
+				"method": "POST"
+			}
+		]
+	}
+}
